@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    max-width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container-logo-pisca {
+    position: relative;
+}
+
+.boll-pisca-red {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: piscaRed;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+
+@keyframes piscaRed {
+    0%   {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+    50%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+  }
+
+
+
+  .boll-pisca-green {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    animation-name: piscaGreen;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: -5px;
+    left: 25px;
+}
+
+@keyframes piscaGreen {
+    0%   {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+    60%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+  }
+
+  .boll-pisca-red2,
+  .boll-pisca-red6 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: piscaRed2;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+@keyframes piscaRed2 {
+    0%   {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+    70%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+  }
+  .boll-pisca-red6 {
+    top: 4px !important;
+    left: 130px !important;
+    width: 4px !important;
+    height: 4px !important;
+  }
+  
+
+
+  .boll-pisca-green2,
+  .boll-pisca-green5 {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    animation-name: piscaGreen2;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 1px;
+    left: 45px;
+}
+
+@keyframes piscaGreen2 {
+    0%   {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+    60%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+  }
+  .boll-pisca-green5{
+    top: 10px !important;
+    left: 120px !important;
+    width: 5px !important;
+    height: 5px !important;
+  }
+  
+
+  .boll-pisca-red3,
+  .boll-pisca-red4,
+  .boll-pisca-red7 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: piscaRed3;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+
+@keyframes piscaRed3 {
+    0%   {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+    40%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+  }
+  .boll-pisca-red4 {
+    top: 0px !important;
+    left: 110px !important;
+    width: 7px !important;
+    height: 7px !important;
+  }
+  .boll-pisca-red7 {
+    top: 0px !important;
+    left: 180px !important;
+    width: 7px !important;
+    height: 7px !important;
+  }
+
+
+  .boll-pisca-green3,
+  .boll-pisca-green6 {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    animation-name: piscaGreen3;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: -3px;
+    left: 75px;
+}
+
+@keyframes piscaGreen3 {
+    0%   {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+    20%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+  }
+  .boll-pisca-green6{
+    top: 10px !important;
+    left: 143px !important;
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+
+  .boll-pisca-red4 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: piscaRed4;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 3px;
+    left: 90px;
+}
+
+@keyframes piscaRed4 {
+    0%   {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+    10%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: red;
+        box-shadow: 0 0 10px red;
+    }
+  }
+
+
+
+  .boll-pisca-green4,
+  .boll-pisca-green7 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    animation-name: piscaGreen4;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+
+@keyframes piscaGreen4 {
+    0%   {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+    20%   {
+        background: white;
+        box-shadow: none;
+    }
+    100% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+    }
+  }
+
+  .boll-pisca-green7{
+    top: -3px !important;
+    left: 175px !important;
+    width: 4px !important;
+    height: 4px !important;
+  }
+
+
+  
